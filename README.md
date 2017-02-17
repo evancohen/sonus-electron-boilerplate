@@ -1,5 +1,7 @@
 # sonus-electron-boilerplate
-Example of [Sonus] running in electron for OSX and Linux
+Example of [Sonus](https://github.com/evancohen/sonus) running in electron for OSX and Linux.
+
+**What you get:** customizable offline hotword detection and streaming recognition for your stand-alone desktop application. Yay!
 
 ## Unix Dependencies
 
