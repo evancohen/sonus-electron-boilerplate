@@ -3,7 +3,7 @@ Example of [Sonus](https://github.com/evancohen/sonus) running in electron for O
 
 **What you get:** customizable offline hotword detection and streaming recognition for your stand-alone desktop application. Yay!
 
-## Unix Dependencies
+## Getting Started
 
 1. Clone Repo
 2. Install (and keep native electron cache away from your normal cache)
