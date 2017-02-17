@@ -1,7 +1,7 @@
 # sonus-electron-boilerplate
 Example of [Sonus](https://github.com/evancohen/sonus) running in electron for OSX and Linux.
 
-**What you get:** customizable offline hotword detection and streaming recognition for your stand-alone desktop application. Yay!
+**What you get:** customizable offline hotword detection and streaming recognition for your stand-alone desktop application.
 
 ## Getting Started
 
@@ -15,4 +15,4 @@ HOME=~/.electron-gyp npm install
 4. Say "Sonus" and then whatever you want
 
 ## Known issues
-As noted in Kitt-AI/snowboy#126, there are issues finding `cblas_sdot`. The fix mentioned there has not been tested in this repo yet.
+As noted in [snowboy#126](https://github.com/Kitt-AI/snowboy/issues/126), there are issues finding `cblas_sdot` on linux systems. The fix mentioned there has not been tested in this repo yet, but I'm working on a solution.
