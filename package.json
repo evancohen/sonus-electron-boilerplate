@@ -1,0 +1,32 @@
+{
+  "name": "sonus-electron-boilerplate",
+  "version": "0.0.1",
+  "description": "An example of Sonus running in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evancohen/sonus-electron-boilerplate.git"
+  },
+  "keywords": [
+    "sonus",
+    "electron",
+    "tts",
+    "hotword-detection"
+  ],
+  "author": "Evan Cohen",
+  "license": "MIT",
+  "dependencies": {
+    "sonus": "^0.1.7"
+  },
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/evancohen/sonus-electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/evancohen/sonus-electron-boilerplate#readme"
+}
