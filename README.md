@@ -6,13 +6,18 @@ Example of [Sonus](https://github.com/evancohen/sonus) running in electron for O
 ## Getting Started
 
 1. Clone Repo
-2. Install (and keep native electron cache away from your normal cache)
+2. Get build dependencies (since we'll be compiling some modules from scratch)
+```
+npm install -g nan
+sudo apt-get install libatlas-base-dev
+```
+3. Install (and keep native electron cache away from your normal cache). This will take some time depending on the speed of your system.
 ```
 HOME=~/.electron-gyp npm install
 ```
-3. Add your Google Cloud Speech `keyfile.json` to the root
-4. Run `npm start`
-4. Say "Sonus" and then whatever you want
+4. Add your Google Cloud Speech `keyfile.json` to the root
+5. Run `npm start`
+6. Say "Sonus" and then whatever you want
 
 ## Known issues
 As noted in [snowboy#126](https://github.com/Kitt-AI/snowboy/issues/126), there are issues finding `cblas_sdot` on linux systems. The fix mentioned there has not been tested in this repo yet, but I'm working on a solution.
