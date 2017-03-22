@@ -23,7 +23,7 @@
     "sonus": "^0.1.7"
   },
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.15"
   },
   "bugs": {
     "url": "https://github.com/evancohen/sonus-electron-boilerplate/issues"
