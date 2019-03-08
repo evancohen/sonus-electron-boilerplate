@@ -1,6 +1,6 @@
 {
   "name": "sonus-electron-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An example of Sonus running in Electron",
   "main": "main.js",
   "scripts": {
@@ -20,10 +20,10 @@
   "author": "Evan Cohen",
   "license": "MIT",
   "dependencies": {
-    "sonus": "^0.1.7"
+    "sonus": "^1.0.1"
   },
   "devDependencies": {
-    "electron": "1.7.11"
+    "electron": "3.0.13"
   },
   "bugs": {
     "url": "https://github.com/evancohen/sonus-electron-boilerplate/issues"
