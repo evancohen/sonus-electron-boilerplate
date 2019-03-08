@@ -4,7 +4,8 @@
 
 const Sonus = require('sonus')
 const path = require('path')
-const speech = require('@google-cloud/speech')({
+const speech = require('@google-cloud/speech')
+const client = new speech.SpeechClient({
   projectId: 'streaming-speech-sample',
   keyFilename: path.resolve('./keyfile.json')
 })
@@ -13,7 +14,7 @@ const hotwords = [{ file: path.resolve('node_modules/sonus/resources/sonus.pmdl'
 const language = "en-US"
 
 //recordProgram can also be 'arecord' which works much better on the Pi and low power devices
-const sonus = Sonus.init({ hotwords, language, recordProgram: "rec" }, speech)
+const sonus = Sonus.init({ hotwords, language, recordProgram: "rec" }, client)
 
 Sonus.start(sonus)
 console.log('Say "' + hotwords[0].hotword + '"...')
